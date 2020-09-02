@@ -1,0 +1,10 @@
+[02-Sep-2020 18:13:53 UTC] PHP Notice:  Undefined variable: fileInfo in /var/www/fourth.site/iterator.php on line 6
+[02-Sep-2020 18:13:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function isFile() on null in /var/www/fourth.site/iterator.php:6
+Stack trace:
+#0 {main}
+  thrown in /var/www/fourth.site/iterator.php on line 6
+[02-Sep-2020 18:17:05 UTC] PHP Notice:  Undefined variable: fileInfo in /var/www/fourth.site/iterator.php on line 7
+[02-Sep-2020 18:17:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getExtension() on null in /var/www/fourth.site/iterator.php:7
+Stack trace:
+#0 {main}
+  thrown in /var/www/fourth.site/iterator.php on line 7
