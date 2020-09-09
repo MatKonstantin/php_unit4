@@ -8,3 +8,11 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /var/www/fourth.site/iterator.php on line 7
+[09-Sep-2020 17:49:08 UTC] PHP Fatal error:  Constant expression contains invalid operations in /var/www/fourth.site/Strategy2.php on line 5
+[09-Sep-2020 17:50:05 UTC] PHP Notice:  Undefined property: JSONRender::$product in /var/www/fourth.site/Strategy2.php on line 41
+[09-Sep-2020 17:53:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function JSONRender::get(), 0 passed in /var/www/fourth.site/Strategy2.php on line 17 and exactly 1 expected in /var/www/fourth.site/Strategy2.php:39
+Stack trace:
+#0 /var/www/fourth.site/Strategy2.php(17): JSONRender->get()
+#1 /var/www/fourth.site/Strategy2.php(56): Product->get()
+#2 {main}
+  thrown in /var/www/fourth.site/Strategy2.php on line 39
